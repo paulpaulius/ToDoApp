@@ -26,7 +26,7 @@ SECRET_KEY = 'n+eatv34-7e0b(i%4y3ge6tp1flw&662g2039ha82y)yx=4d-p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://crud-atsiskaitymas.herokuapp.com']
 
 
 # Application definition
