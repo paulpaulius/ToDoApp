@@ -53,9 +53,6 @@ def edit(request, list_id):
 def change_date(request, list_id):
     if request.method == 'POST':
         item = List.objects.get(pk=list_id)
-        print(item.completed)
-        print(item.due_date)
-        print(item.name)
         form = ListForm(request.POST or None, instance=item)
         if form.is_valid():
             form.save()
